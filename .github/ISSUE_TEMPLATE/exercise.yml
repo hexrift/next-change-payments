@@ -1,0 +1,17 @@
+name: Exercise result
+description: Share a synthetic case and what it caught
+title: '[Exercise] '
+body:
+  - type: input
+    id: episode
+    attributes:
+      label: Episode and repository tag
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Case and check output
+      description: Paste synthetic fixtures and the check output. Include no client data.
+    validations:
+      required: true
